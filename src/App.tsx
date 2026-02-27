@@ -78,7 +78,7 @@ function App() {
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 5rem' }}>
           <h2 className="section-title">¿Qué es Hadda?</h2>
           <p style={{ fontSize: '1.25rem', color: 'var(--color-text-muted)', lineHeight: '1.8' }}>
-            Hadda es una plataforma de automatización inteligente basada en agentes de IA empresariales.
+            Hadda es una empresa de consultoría de automatización e inteligencia artificial.
             Somos una <span className="serif-highlight">arquitectura de inteligencia operativa</span> que conecta tus sistemas, ejecuta procesos
             automáticamente y genera decisiones accionables en tiempo real.
           </p>

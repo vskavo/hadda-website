@@ -27,7 +27,7 @@ Hadda existe para resolver eso.
 
 ## ¿Qué es Hadda?
 
-Hadda es una plataforma de automatización inteligente basada en agentes de IA empresariales.
+Hadda es una empresa de consultoría de automatización e inteligencia artificial.
 
 No somos un software más.  
 No somos un chatbot.  
