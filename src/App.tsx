@@ -31,7 +31,9 @@ function App() {
       <section className="hero">
         <div className="hero-orb"></div>
         <motion.div style={{ y: y1 }} className="hero-content" initial="hidden" animate="visible" variants={staggerContainer}>
-          <motion.h1 className="h1-title" variants={fadeUp}>Hadda</motion.h1>
+          <motion.h1 variants={fadeUp}>
+            <img src="/logo.png" alt="Hadda" className="hero-logo" />
+          </motion.h1>
           <motion.p className="hero-subtitle" variants={fadeUp}>
             Inteligencia Operativa para Empresas que Quieren Escalar.<br />
             Transformamos el caos operativo en sistemas inteligentes que trabajan por ti.
@@ -190,9 +192,9 @@ function App() {
 
       {/* FOOTER */}
       <footer className="section" style={{ padding: '4rem 2rem', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 600, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '1rem' }}>
-          Hadda
-        </h2>
+        <div>
+          <img src="/logo.png" alt="Hadda" className="footer-logo" />
+        </div>
         <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem' }}>
           Arquitectura de Inteligencia Operativa
         </p>
